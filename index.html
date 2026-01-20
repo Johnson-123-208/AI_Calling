@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Voice-Based AI Calling System | University Project</title>
+    <meta name="description" content="An intelligent, automated voice system that understands speech, processes intent, and responds naturally using AI. A comprehensive university project for UK students.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Smart Voice-Based AI Calling System</h1>
+                <p class="hero-subtitle fade-in-delay">An intelligent, automated voice system that understands speech, processes intent, and responds naturally using AI.</p>
+                
+                <!-- Animated Waveform -->
+                <div class="waveform-container fade-in-delay-2">
+                    <div class="waveform">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <h2 class="section-title reveal">Why This Project Exists</h2>
+            
+            <div class="problem-grid">
+                <div class="problem-card reveal">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                    </div>
+                    <h3>Rigid IVR Systems</h3>
+                    <p>Traditional Interactive Voice Response systems follow fixed menus, frustrating users with limited options and inflexible pathways.</p>
+                </div>
+
+                <div class="problem-card reveal">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3>Limited Understanding</h3>
+                    <p>Rule-based bots lack contextual awareness and cannot comprehend natural language variations or user intent.</p>
+                </div>
+
+                <div class="problem-card reveal">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Costly & Unscalable</h3>
+                    <p>Human-operated calling systems require significant resources and cannot scale efficiently to handle high call volumes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposed System Section -->
+    <section id="system" class="system-section">
+        <div class="container">
+            <h2 class="section-title reveal">What We Are Building</h2>
+            
+            <div class="system-grid">
+                <div class="system-card reveal">
+                    <div class="card-number">01</div>
+                    <h3>Real-Time Voice Understanding</h3>
+                    <p>Instant speech recognition that converts spoken words into text with high accuracy, regardless of accent or speaking style.</p>
+                </div>
+
+                <div class="system-card reveal">
+                    <div class="card-number">02</div>
+                    <h3>AI-Driven Responses</h3>
+                    <p>Intelligent processing using large language models to understand context, intent, and generate appropriate responses.</p>
+                </div>
+
+                <div class="system-card reveal">
+                    <div class="card-number">03</div>
+                    <h3>Context-Aware Conversations</h3>
+                    <p>Maintains conversation history and context to provide coherent, relevant responses throughout the call.</p>
+                </div>
+
+                <div class="system-card reveal">
+                    <div class="card-number">04</div>
+                    <h3>Minimal Human Intervention</h3>
+                    <p>Fully automated system that handles calls independently, escalating to humans only when necessary.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <h2 class="section-title reveal">How It Works Technically</h2>
+            
+            <div class="tech-stack">
+                <div class="tech-layer reveal">
+                    <div class="layer-content">
+                        <div class="layer-number">1</div>
+                        <div class="layer-info">
+                            <h3>Speech Recognition (ASR)</h3>
+                            <p>Converts incoming voice audio into accurate text transcriptions using advanced automatic speech recognition technology.</p>
+                        </div>
+                    </div>
+                    <div class="connector"></div>
+                </div>
+
+                <div class="tech-layer reveal">
+                    <div class="layer-content">
+                        <div class="layer-number">2</div>
+                        <div class="layer-info">
+                            <h3>Natural Language Processing (NLP)</h3>
+                            <p>Analyzes the transcribed text to extract meaning, identify entities, and understand the user's intent.</p>
+                        </div>
+                    </div>
+                    <div class="connector"></div>
+                </div>
+
+                <div class="tech-layer reveal">
+                    <div class="layer-content">
+                        <div class="layer-number">3</div>
+                        <div class="layer-info">
+                            <h3>Large Language Models (LLMs)</h3>
+                            <p>Generates contextually appropriate, human-like responses based on the understood intent and conversation history.</p>
+                        </div>
+                    </div>
+                    <div class="connector"></div>
+                </div>
+
+                <div class="tech-layer reveal">
+                    <div class="layer-content">
+                        <div class="layer-number">4</div>
+                        <div class="layer-info">
+                            <h3>Text-to-Speech (TTS)</h3>
+                            <p>Converts the AI-generated text response into natural-sounding speech with appropriate tone and pacing.</p>
+                        </div>
+                    </div>
+                    <div class="connector"></div>
+                </div>
+
+                <div class="tech-layer reveal">
+                    <div class="layer-content">
+                        <div class="layer-number">5</div>
+                        <div class="layer-info">
+                            <h3>Call Flow Management & APIs</h3>
+                            <p>Orchestrates the entire process, managing call state, integrating telephony APIs, and coordinating all system components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Workflow Section -->
+    <section id="workflow" class="workflow-section">
+        <div class="container">
+            <h2 class="section-title reveal">End-to-End System Workflow</h2>
+            
+            <div class="workflow-timeline">
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 1</div>
+                        <h3>User Places a Phone Call</h3>
+                        <p>The caller initiates contact with the system through a standard telephone connection.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 2</div>
+                        <h3>Voice Captured & Converted to Text</h3>
+                        <p>The system records the caller's speech and uses ASR technology to transcribe it into written text.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 3</div>
+                        <h3>AI Understands Intent</h3>
+                        <p>Natural language processing analyzes the text to determine what the caller wants and the context of their request.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 4</div>
+                        <h3>AI Generates Response</h3>
+                        <p>The language model formulates an appropriate, contextually relevant response based on the understood intent.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                        <div class="step-line"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 5</div>
+                        <h3>Response Converted to Voice</h3>
+                        <p>Text-to-speech technology transforms the written response into natural-sounding audio.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-step reveal">
+                    <div class="step-marker">
+                        <div class="step-dot"></div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">Step 6</div>
+                        <h3>Voice Played Back to Caller</h3>
+                        <p>The synthesized speech is delivered to the caller, completing the interaction cycle and continuing the conversation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process Section -->
+    <section id="development" class="development-section">
+        <div class="container">
+            <h2 class="section-title reveal">How the Project Will Be Built</h2>
+            
+            <div class="development-process">
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 1</span>
+                        <h3>Requirement Understanding</h3>
+                    </div>
+                    <p>Comprehensive analysis of project scope, user needs, and technical constraints to establish clear objectives and success criteria.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 2</span>
+                        <h3>Architecture Design</h3>
+                    </div>
+                    <p>Design system architecture, select appropriate technologies, and plan integration points between all components.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 3</span>
+                        <h3>Telephony Call Setup</h3>
+                    </div>
+                    <p>Implement call handling infrastructure using telephony APIs to manage incoming and outgoing connections.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 4</span>
+                        <h3>Speech-to-Text Integration</h3>
+                    </div>
+                    <p>Integrate ASR services to convert real-time audio streams into accurate text transcriptions.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 5</span>
+                        <h3>AI Logic Implementation</h3>
+                    </div>
+                    <p>Develop natural language understanding, intent recognition, and response generation using large language models.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 6</span>
+                        <h3>Text-to-Speech Response</h3>
+                    </div>
+                    <p>Implement TTS functionality to convert AI-generated responses into natural, conversational speech.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 7</span>
+                        <h3>Testing & Demo Preparation</h3>
+                    </div>
+                    <p>Conduct thorough testing across various scenarios, refine system behavior, and prepare demonstration materials.</p>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="process-header">
+                        <span class="process-number">Phase 8</span>
+                        <h3>Documentation & Explanation</h3>
+                    </div>
+                    <p>Create comprehensive documentation covering system design, implementation details, and usage guidelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Outcome Section -->
+    <section id="outcome" class="outcome-section">
+        <div class="container">
+            <h2 class="section-title reveal">What This Delivers</h2>
+            
+            <div class="outcome-content reveal">
+                <div class="outcome-grid">
+                    <div class="outcome-item">
+                        <h3>Working AI Voice Prototype</h3>
+                        <p>A fully functional voice calling system demonstrating real-world AI capabilities in action.</p>
+                    </div>
+
+                    <div class="outcome-item">
+                        <h3>Live Demo Capability</h3>
+                        <p>Ready-to-present demonstration showcasing the system's ability to handle natural conversations.</p>
+                    </div>
+
+                    <div class="outcome-item">
+                        <h3>Strong Academic Value</h3>
+                        <p>Comprehensive understanding of modern AI systems, from theory to practical implementation.</p>
+                    </div>
+
+                    <div class="outcome-item">
+                        <h3>Real-World AI Systems</h3>
+                        <p>Hands-on experience with industry-standard technologies and best practices in AI development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section id="closing" class="closing-section">
+        <div class="container">
+            <div class="closing-content reveal">
+                <h2>Next Steps</h2>
+                <p class="closing-text">This project provides a clear, structured approach to building an intelligent voice-based calling system. Each phase builds upon the previous one, ensuring a comprehensive understanding of both the technical implementation and the underlying AI concepts.</p>
+                <p class="closing-text">The scope is well-defined, the technology stack is proven, and the development process follows industry best practices. This foundation enables confident collaboration and successful project delivery.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AI Voice-Based Calling System. University Project.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
